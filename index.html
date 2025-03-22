@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chroma.Lab - Color Palette Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <link rel="manifest" href="site-data/site.webmanifest">
+  </head>
+  <body>
+    <header>
+      <div class="app-title">
+        <h1 class="logo">Chroma <span>.</span>Lab </h1>
+        <button id="themeToggle" class="theme-toggle">☀️</button>
+      </div>
+      <div class="controls">
+        <div class="control-group">
+          <label for="colorCount">Colors</label>
+          <select id="colorCount">
+            <option value="3">3 Colors</option>
+            <option value="4">4 Colors</option>
+            <option value="5" selected>5 Colors</option>
+            <option value="6">6 Colors</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="paletteType">Type</label>
+          <select id="paletteType">
+            <option value="random" selected>Random</option>
+            <option value="analogous">Analogous</option>
+            <option value="monochromatic">Monochromatic</option>
+            <option value="complementary">Complementary</option>
+            <option value="triadic">Triadic</option>
+            <option value="tetradic">Tetradic</option>
+            <option value="pastel">Pastel</option>
+            <option value="earthy">Earthy Tones</option>
+            <option value="gradient">Gradient</option>
+          </select>
+        </div>
+        <button id="generateBtn">Generate New Palette</button>
+        <button id="saveBtn">Save Current Palette</button>
+      </div>
+    </header>
+    <main>
+      <div class="palette-container" id="paletteContainer">
+        <!-- Palettes will be generated here -->
+      </div>
+    </main>
+    <div class="toast" id="toast">Color copied to clipboard!</div>
+    <footer>
+      <p>Chroma.Lab - A Color Palette Generator &copy; 2025 | Made with ❤️ by ThatSINEWAVE</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
