@@ -1,0 +1,26 @@
+{
+  "name": "Chroma.Lab by ThatSINEWAVE_",
+  "description": "Chroma.Lab is a modern, intuitive color palette generator that helps designers, developers, and creatives discover, create, and save beautiful color combinations for their projects.",
+  "short_name": "Chroma.Lab",
+  "start_url": "/ChromaLab",
+  "orientation": "portrait",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "site-data/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "site-data/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "site-data/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
