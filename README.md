@@ -2,7 +2,7 @@
 
 # [Chroma.Lab](https://thatsinewave.github.io/ChromaLab)
 
-![ChromaLab](https://raw.githubusercontent.com/ThatSINEWAVE/WebSort/refs/heads/main/.github/SCREENSHOTS/ChromaLab.png)
+![ChromaLab](https://raw.githubusercontent.com/ThatSINEWAVE/ChromaLab/refs/heads/main/.github/SCREENSHOTS/ChromaLab.png)
 
 Chroma.Lab is a modern, intuitive color palette generator that helps designers, developers, and creatives discover, create, and save beautiful color combinations for their projects.
 
