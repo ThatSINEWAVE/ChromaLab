@@ -1,6 +1,6 @@
 <div align="center">
 
-# [ChromaLab](https://thatsinewave.github.io/ChromaLab)
+# [Chroma.Lab](https://thatsinewave.github.io/ChromaLab)
 
 ![ChromaLab](https://raw.githubusercontent.com/ThatSINEWAVE/WebSort/refs/heads/main/.github/SCREENSHOTS/ChromaLab.png)
 
